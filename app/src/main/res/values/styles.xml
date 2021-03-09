@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="rule_page_text_style">
+        <item name="android:fontFamily">@font/roboto_light</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="home_button_style">
+        <item name="android:layout_width">55dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:contentDescription">@string/home_button</item>
+        <item name="android:layout_marginTop">12.3dp</item>
+        <item name="android:layout_marginLeft">12.3dp</item>
+    </style>
+
+    <style name="forward_arrow_button_style">
+        <item name="android:layout_width">26.3dp</item>
+        <item name="android:layout_height">20.3dp</item>
+        <item name="android:layout_marginRight">81dp</item>
+        <item name="android:layout_marginBottom">90dp</item>
+    </style>
+
+    <style name="previous_arrow_button_style">
+        <item name="android:layout_width">26.3dp</item>
+        <item name="android:layout_height">26.3dp</item>
+        <item name="android:layout_marginLeft">81dp</item>
+        <item name="android:layout_marginBottom">90dp</item>
+    </style>
+
+</resources>

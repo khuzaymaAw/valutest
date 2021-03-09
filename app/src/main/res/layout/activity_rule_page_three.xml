@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_blue_light_gradient_background"
+    android:layoutDirection="ltr"
+    android:theme="@style/AppTheme.NoActionBar"
+    tools:context=".rule_page_three">
+
+    <ImageView
+        android:id="@+id/home_button"
+        style="@style/home_button_style"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045"
+        app:srcCompat="@drawable/home_button" />
+
+    <TextView
+        android:id="@+id/rules_page_three_text_id"
+        style="@style/rule_page_text_style"
+        android:layout_width="302dp"
+        android:layout_height="342dp"
+        android:text="@string/rules_page_three_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_button"
+        app:layout_constraintVertical_bias="0.147" />
+
+    <ImageView
+        android:id="@+id/forward_arrow_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/previous_arrow_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rules_page_three_text_id"
+        app:layout_constraintVertical_bias="0.423"
+        app:srcCompat="@drawable/forward_arow"
+        style="@style/forward_arrow_button_style" />
+
+    <ImageView
+        android:id="@+id/previous_arrow_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/forward_arrow_button"
+        app:layout_constraintHorizontal_bias="0.01"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rules_page_three_text_id"
+        app:layout_constraintVertical_bias="0.455"
+        app:srcCompat="@drawable/previous_arrow"
+        style="@style/previous_arrow_button_style" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

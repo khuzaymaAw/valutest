@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Val U</string>
+    <string name="val_u">Val U</string>
+    <string name="val_u_logo">val u</string>
+    <string name="take_a_tour_button">take a tour button</string>
+    <string name="start_button">start button</string>
+    <string name="home_button">home button</string>
+    <string name="rules_page_one_text">
+      <![CDATA[
+      <p>Have you ever wished you could go to the store with the "thank you" that you got from other people?</p>
+      <p>well, now you can! </p>
+      <p>this app enables you to give and get thanks that has value except on it\'s own! </p>
+       ]]>
+    </string>
+
+    <string name="rules_page_two_text">
+      <![CDATA[
+      <p>You will get the opportunity to thank someone each day</p>
+      <p>there are a few rules though:</p>
+      <p>1. you can\'t use the "thank you"s that you are being given by the app, you can only give it away</p>
+      <p>2. you can use the "thank you" that you are being given by another person</p>
+       ]]>
+    </string>
+
+    <string name="rules_page_three_text">
+      <![CDATA[
+      <p>3. you can give thank you to a certain person once a month</p>
+      <p>4. this person cant\'t give you back at the same month</p>
+      <p>5. if you give to the same person month after month in a row, this person will not be able to be given by you at the next 6 months</p>
+      ]]>
+    </string>
+
+    <string name="rules_page_four_text">
+      <![CDATA[
+      <p>6. the more you give thank you\'s to less related people to you, the next thank you that you will get from someone will have more value</p>
+      <p>7. you can "register" all the people that you want to give thanks for and in the end of the day decide who you want to give it to</p>
+      ]]>
+    </string>
+
+    <string name="title_activity_rules_page_two">rules_page_two</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
